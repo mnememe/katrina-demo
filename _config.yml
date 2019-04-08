@@ -16,13 +16,13 @@
 title: Katrina Grant
 email: katrina.grant@anu.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
-  Katrina Grant is a lecturer in Digital Humanities (Art History) at the 
-  Australian National University. She is based in the Centre 
-  for Digital Humanities Research. Her research interests focus upon the history of landscape 
-  and visual culture in early modern Europe, art and technology, digital mapping for art history, 
-  digital collections, etc. 
+  Katrina Grant is a lecturer in Digital Humanities (Art History) at the
+  Australian National University. She is based in the Centre
+  for Digital Humanities Research. Her research interests focus upon the history of landscape
+  and visual culture in early modern Europe, art and technology, digital mapping for art history,
+  digital collections, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "katrina.museologi.st" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: orientalhotel
 github_username: mnememe
 # Build settings
@@ -30,7 +30,11 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-mentions
+permalink: pretty
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
