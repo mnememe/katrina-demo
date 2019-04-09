@@ -5,7 +5,8 @@ permalink: /map/
 ---
 
 <div id='map'></div>
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+ <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+<script>
 mapboxgl.accessToken = 'pk.eyJ1IjoidGVtcGVzdGEiLCJhIjoiRlJYSUFySSJ9.TQBYUVacKdHs_GcwuWWUgg';
 const map = new mapboxgl.Map({
   container: 'map',
@@ -14,3 +15,4 @@ const map = new mapboxgl.Map({
   zoom: 8.5
 });
 </script>
+ <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
